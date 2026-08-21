@@ -1,0 +1,10 @@
+<library path="topsbot_mobilenet_backend">
+  <class name="mobilenet"
+         type="topsbot_mobilenet_cls::MobileNetBackend"
+         base_class_type="topsbot_ai_infer::IInferenceBackend">
+    <description>MobileNetV2 classification with taCV/DMA preprocessing.</description>
+  </class>
+  <class name="mobilenetv2"
+         type="topsbot_mobilenet_cls::MobileNetBackend"
+         base_class_type="topsbot_ai_infer::IInferenceBackend"/>
+</library>

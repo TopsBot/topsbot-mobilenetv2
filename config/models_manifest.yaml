@@ -1,0 +1,11 @@
+install_dir: "~/topsbot/models"
+
+# Archive containing mobilenetv2_int8.nb at its root.
+models_zip_url: "https://bj25486.apps.aliyunfile.com/disk/s/65KQKWmHYSg?domainId=bj25486"
+
+required_models:
+  - mobilenetv2_int8.nb
+
+# Download archive also contains this model; it is not required by the default launch.
+optional_models:
+  - mobilenetv2_float16.nb

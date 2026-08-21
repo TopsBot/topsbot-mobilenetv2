@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>topsbot_mobilenet_cls</name>
+  <version>0.1.0</version>
+  <description>MobileNetV2 taCV/DMA backend plugin for topsbot_ai_infer.</description>
+
+  <maintainer email="developer@topsfuture.com">TOPSBOT</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>ament_index_cpp</depend>
+  <depend>pluginlib</depend>
+  <depend>topsbot_ai_infer</depend>
+  <depend>topsbot_cv</depend>
+  <depend>libopencv-dev</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>topsbot_usb_cam</exec_depend>
+  <exec_depend>topsbot_webviz</exec_depend>
+
+  <test_depend>ament_cmake_gtest</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

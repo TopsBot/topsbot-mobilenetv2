@@ -1,0 +1,10 @@
+topsbot-mobilenetv2
+Copyright 2026 TOPSBOT contributors
+
+This product includes MobileNetV2 classification nodes and inference helpers for TOPSBOT MES20 boards.
+
+Implementation references the TOPSBOT model-zoo YOLO sample pipelines for preprocessing,
+postprocessing, and NPU runtime usage.
+
+mobileNet model files (.nb) are not distributed with this repository; see scripts/download_models.sh
+and config/models_manifest.yaml.

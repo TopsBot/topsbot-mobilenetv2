@@ -1,0 +1,22 @@
+/**:
+  ros__parameters:
+    output_image_file: /tmp/topsbot_ai_infer/out_mobilenetv2.jpg
+    enable_profile: true
+
+    model.backend: mobilenet
+    model.name: mobilenetv2
+    model.type: mobilenetv2
+    model.path: ~/topsbot/models/mobilenetv2_int8.nb
+    device_id: 0
+
+    preprocess.engine: tacv_dma
+    preprocess.input_width: 224
+    preprocess.input_height: 224
+    preprocess.csc_type: ycbcr2rgb_bt601
+    preprocess.interpolation: linear
+    preprocess.scale: 0.003921568627
+    preprocess.mean: [0.485, 0.456, 0.406]
+    preprocess.std: [0.229, 0.224, 0.225]
+
+    postprocess.top_k: 5
+    postprocess.labels_path: package://topsbot_mobilenet_cls/config/imagenet_labels.txt
