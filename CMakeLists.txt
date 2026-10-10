@@ -47,8 +47,14 @@ target_include_directories(topsbot_mobilenet_dma PUBLIC
 target_link_directories(topsbot_mobilenet_dma PUBLIC
   ${TOPSBOT_MOBILENET_SYSTEM_LIB}
 )
+target_link_options(topsbot_mobilenet_dma PUBLIC
+  "-Wl,-rpath-link,${TOPSBOT_MOBILENET_SYSTEM_LIB}"
+)
 target_link_libraries(topsbot_mobilenet_dma
   tacocv
+  taco_jpegdec
+  taco_ppvdec
+  enc24
   dmabufheap
   tacosys
 )

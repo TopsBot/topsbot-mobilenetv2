@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>topsbot_mobilenet_cls</name>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <description>MobileNetV2 taCV/DMA backend plugin for topsbot_ai_infer.</description>
 
   <maintainer email="developer@topsfuture.com">TOPSBOT</maintainer>
@@ -15,6 +15,12 @@
   <depend>topsbot_ai_infer</depend>
   <depend>topsbot_cv</depend>
   <depend>libopencv-dev</depend>
+  <depend>libtacv</depend>
+  <depend>libdmabufheap</depend>
+  <depend>libtasys</depend>
+  <depend>libtaruntime</depend>
+  <depend>libdec24</depend>
+  <depend>libenc24</depend>
 
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>

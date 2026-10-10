@@ -30,7 +30,7 @@
 ```bash
 # PC：topsbot_cc 工具链环境
 cd topsbot_cc/topsbot_ws
-./tools/build.sh -s 'tb_cls_msgs topsbot_cv topsbot_ai_infer topsbot_mobilenet_cls topsbot_webviz'
+./tools/scripts/build.sh -s 'tb_cls_msgs topsbot_cv topsbot_ai_infer topsbot_mobilenet_cls topsbot_webviz'
 ```
 
 将 `install/` 同步到板卡，或直接在板端工作空间中编译（若板端具备完整编译环境）。

@@ -29,7 +29,7 @@ Build inside the `topsbot_cc` toolchain environment to produce `install/` for th
 ```bash
 # PC: topsbot_cc toolchain
 cd topsbot_cc/topsbot_ws
-./tools/build.sh -s 'tb_cls_msgs topsbot_cv topsbot_ai_infer topsbot_mobilenet_cls topsbot_webviz'
+./tools/scripts/build.sh -s 'tb_cls_msgs topsbot_cv topsbot_ai_infer topsbot_mobilenet_cls topsbot_webviz'
 ```
 
 Sync `install/` to the board, or build directly on the board if a full build environment is available.
