@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>topsbot_mobilenet_cls</name>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <description>MobileNetV2 taCV/DMA backend plugin for topsbot_ai_infer.</description>
 
   <maintainer email="developer@topsfuture.com">TOPSBOT</maintainer>
